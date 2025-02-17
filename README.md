@@ -38,7 +38,7 @@ Example output:
 
 ## Running Tests
 1. **Ensure dependencies are installed** (see Installation section).
-2. **Run tests using pytest:**
+2. **Run tests from the core project folder using pytest:**
    ```sh
    pytest
    ```

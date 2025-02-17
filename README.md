@@ -28,7 +28,7 @@ This is a command-line utility to fetch geolocation data (latitude, longitude, a
 ## Usage
 Run the command with the `--locations` flag followed by city/state or ZIP codes:
 ```sh
-python geoloc_util.py --locations "Madison, WI" "10001"
+python geolocation_utility.py --locations Madison, WI 10001
 ```
 Example output:
 ```json

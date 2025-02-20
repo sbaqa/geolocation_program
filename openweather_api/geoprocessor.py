@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 
 class GeoProcessor:
     def process_locations(locations: List[str]) -> List[Dict[str, Any]]:
-        """Process list of locations and fetch geolocation data."""
+        """ Process list of locations and fetch geolocation data """
         results = []
 
         for loc in locations:

@@ -13,8 +13,7 @@ class CmdExec:
     def execute_command(command):
         cmd = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding='utf-8')
         list_of_strings = cmd.communicate()[0].strip().split('\n')
-        # country_list = [ast.literal_eval(item) for item in list_of_strings]
-        
+
         country_list = []
         for item in list_of_strings:
             item = item.strip()  # Remove any unnecessary whitespace around the string

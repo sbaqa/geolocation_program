@@ -1,6 +1,6 @@
 # Geolocation Utility
 
-This is a command-line utility to fetch geolocation data (latitude, longitude, and place details) from OpenWeather Geocoding API based on city/state or ZIP code input. Fully specified task for this program development you can find here using a [link](https://fetch-hiring.s3.amazonaws.com/SDET/Fetch_Coding_Exercise_SDET_v2.pdf)
+This is a command-line utility to fetch geolocation data (latitude, longitude, and place details) from OpenWeather Geocoding API based on city/state or ZIP code input. Fully specified task for this program development you can find here using a [link](https://github.com/sbaqa/geolocation_program/blob/master/Coding_Project_SDET_Fetch.pdf)
 
 ## Prerequisites
 - Python 3.7+
